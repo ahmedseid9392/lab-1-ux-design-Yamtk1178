@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">LegalTech</string>
+    <string name="today_date">ቅዳሜ የካቲት 7/2018</string>
+    <string name="email">ኢሜል</string>
+    <string name="password">የይለፍ ቃል</string>
+    <string name="login">ግቡ</string>
+    <string name="sign_in_google">sign in with Google</string>
+    <string name="not_member">የሌጋልቴክ አባል አይደሉም ?</string>
+    <string name="register">ይመዝገቡ</string>
+    <string name="ai_title">Legal Tech AI</string>
+    <string name="ai_description">ይህንን ጽሑፍ በራስዎ የ Legal Tech AI መግለጫ ይተኩ።</string>
+    <string name="nav_home">መነሻ</string>
+    <string name="nav_cases">ኬዝ</string>
+    <string name="nav_library">ላይብረሪ</string>
+    <string name="nav_lawyers">ጠበቆች</string>
+    <string name="nav_calculator">ዳኝነት</string>
+    <string name="register_title">መመዝገቢያ</string>
+    <string name="first_name">ስም</string>
+    <string name="father_name">የአባት ስም</string>
+    <string name="grandfather_name">የአያት ስም</string>
+    <string name="phone">ስልክ ቁጥር</string>
+    <string name="confirm_password">የይለፍ ቃል አረጋግጥ</string>
+    <string name="already_member">የሌጋልቴክ አባል ነዎት ?</string>
+    <string name="login_link">ይግቡ</string>
+    <string name="back">Back</string>
+
+    <string name="tile_clients">ደንበኞች</string>
+    <string name="tile_cases">ጉዳዮች</string>
+    <string name="tile_agenda">አጀንዳ</string>
+    <string name="tile_documents">ሰነድ</string>
+    <string name="tile_laws">ሕጎች</string>
+    <string name="tile_blogs">ብሎጎች</string>
+    <string name="tile_tasks">ተግባራት</string>
+    <string name="tile_notes">ማስታወሻ</string>
+    <string name="tile_petition">አቤቱታ</string>
+    <string name="profile_photo">Profile photo</string>
+
+    <string name="case_management">ኬዝ ማኔጅመንት</string>
+    <string name="dashboard">ዳሽቦርድ</string>
+    <string name="tile_calculators">አስሊዎች</string>
+    <string name="tile_notes_plural">ማስታወሻዎች</string>
+</resources>

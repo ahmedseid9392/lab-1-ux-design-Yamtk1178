@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:background="@color/bottom_nav_bg"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/navHome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_home"
+            app:tint="@color/primary_blue"
+            android:contentDescription="@string/nav_home" />
+        <TextView
+            style="@style/Text.NavLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_home"
+            android:textColor="@color/primary_blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navCases"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_work"
+            app:tint="@color/black"
+            android:contentDescription="@string/nav_cases" />
+        <TextView
+            style="@style/Text.NavLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_cases" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navLibrary"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_description"
+            app:tint="@color/black"
+            android:contentDescription="@string/nav_library" />
+        <TextView
+            style="@style/Text.NavLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_library" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navLawyers"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_group"
+            app:tint="@color/black"
+            android:contentDescription="@string/nav_lawyers" />
+        <TextView
+            style="@style/Text.NavLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_lawyers" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navCalculator"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_calculator"
+            app:tint="@color/black"
+            android:contentDescription="@string/nav_calculator" />
+        <TextView
+            style="@style/Text.NavLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_calculator" />
+    </LinearLayout>
+
+</LinearLayout>
